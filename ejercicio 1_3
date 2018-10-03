@@ -1,0 +1,19 @@
+void setup() {
+  size(200,200); 
+}
+
+void draw() {
+   frameRate(5);
+  float v1 =random(0,255);
+  float v2 =random(0,255);
+  float v3 =random(0,255);
+  float v4 =random(0, 50);
+  float v5 =random(0, 50);
+  background(100,250,50);
+  stroke(0);
+  rectMode(CENTER);
+  fill(175);
+  rect(100,100,175,175);
+  fill(v1,v2,v3);
+  ellipse(100,100,v4,v5);
+}
